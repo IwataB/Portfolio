@@ -1,20 +1,20 @@
 body {
     background-color: white;
 }
-
+/*Made background of page white*/
 a{
     color: blue;
 }
-
+/*Made "a" (anchor) tags blue*/
 #current-link{
     text-decoration: none;
 } 
-
+/*Created id tag for the current link on the page*/
 .uppercase{
     text-transform: uppercase;
     font-size: 36px;
 }
-
+/*Created class for uppercase text*/
 h1 {
     border: 5px dashed red;
     padding-top: 20px;
@@ -26,11 +26,18 @@ h1 {
     margin-bottom: 40px;
     margin-right: 50px;
 }
-/*Remember to put semi-colons after lines of code*/
+/*Added Border and Margin to the "H1" tag*/
 .image{
     border: 5px dashed blue;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
+}
+/*Created a class for images to have a border*/
+p{   
+    font-size: 24px;
+}
+.center{
+    alignment-baseline: central
 }
